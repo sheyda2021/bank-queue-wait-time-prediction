@@ -13,7 +13,7 @@ Predicting customer waiting time in bank branches using simulation, feature engi
 📸 Demo
 
 <p align="center">
-  <img src="Screenshot%Screenshot 2026-07-12 190716.png" width="800" alt="Streamlit dashboard — input panel"/>
+  <img src="Screenshot%Screenshot 2026-07-12%190716.png" width="800" alt="Streamlit dashboard — input panel"/>
 </p>
 <p align="center">
   <img src="Screenshot%202026-07-12%20190829.png" width="800" alt="Streamlit dashboard — service type selection"/>
