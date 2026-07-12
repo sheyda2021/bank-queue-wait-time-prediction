@@ -10,6 +10,17 @@ Predicting customer waiting time in bank branches using simulation, feature engi
 
 ---
 
+📸 Demo
+
+<p align="center">
+  <img src="Screenshot%202026-07-12%20190716.png" width="800" alt="Streamlit dashboard — input panel"/>
+</p>
+<p align="center">
+  <img src="Screenshot%202026-07-12%20190829.png" width="800" alt="Streamlit dashboard — service type selection"/>
+</p>
+<p align="center">
+  <img src="Screenshot%202026-07-12%20190914.png" width="800" alt="Streamlit dashboard — prediction result"/>
+</p>
 ## 📌 Overview
 
 Long, unpredictable queues are one of the most common sources of customer dissatisfaction at bank branches. This project builds an end-to-end machine learning pipeline that predicts a customer's expected waiting time based on branch conditions at the moment of arrival — active counter count, current queue length, time of day, and requested service type.
