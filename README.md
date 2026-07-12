@@ -14,11 +14,17 @@ Predicting customer waiting time in bank branches using simulation, feature engi
 
 
 <p align="center">
+  <img src="Screenshot%202026-07-12%20190716.png" width="800" alt="Streamlit dashboard — input panel"/>
+</p>
+<p align="center">
   <img src="Screenshot%202026-07-12%20190829.png" width="800" alt="Streamlit dashboard — service type selection"/>
 </p>
 <p align="center">
   <img src="Screenshot%202026-07-12%20190914.png" width="800" alt="Streamlit dashboard — prediction result"/>
 </p>
+
+
+
 ## 📌 Overview
 
 Long, unpredictable queues are one of the most common sources of customer dissatisfaction at bank branches. This project builds an end-to-end machine learning pipeline that predicts a customer's expected waiting time based on branch conditions at the moment of arrival — active counter count, current queue length, time of day, and requested service type.
@@ -66,12 +72,14 @@ The Stacking Ensemble was selected as the final model: best test-set accuracy an
 
 ```
 .
-├── notebooks/
-│   └── Bank_Queue_WaitTime_Prediction.ipynb   # Full modeling pipeline (real data)
-├── Wait_Time_Predictor_Enhanced.py             # Simulation + RandomForest baseline
-├── streamlit_app_enhanced.py                   # Interactive prediction dashboard
-├── bank_simulation_outputs/                    # Saved models & metrics (gitignored)
+├── Bank_Queue_WaitTime_Prediction.ipynb   # Full modeling pipeline (real data, CatBoost + Stacking)
+├── streamlit_app.py                       # Interactive prediction dashboard
+├── bank_simulation_outputs.rar            # Saved models & metrics
+├── Screenshot 2026-07-12 190716.png       # Dashboard screenshot
+├── Screenshot 2026-07-12 190829.png       # Dashboard screenshot
+├── Screenshot 2026-07-12 190914.png       # Dashboard screenshot
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
